@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | bynusa.dev</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="privacy.css">
+</head>
+<body>
+
+    <div class="ambient-bg">
+        <div class="blob b1"></div>
+        <div class="blob b2"></div>
+    </div>
+
+    <header class="doc-header">
+        <div class="header-inner">
+            <div class="brand">
+                <span class="logo-text">bynusa.dev</span>
+                <span class="badge" style="background: rgba(56, 189, 248, 0.15); color: #38bdf8; border-color: rgba(56, 189, 248, 0.3);">SERVICES</span>
+            </div>
+            <a href="index.html" class="btn-close">
+                <span>Close</span> <i class="fas fa-times"></i>
+            </a>
+        </div>
+    </header>
+
+    <div class="layout-grid">
+        
+        <aside class="sidebar">
+            <div class="sidebar-sticky">
+                <div class="search-box">
+                    <i class="fas fa-search"></i>
+                    <input type="text" id="searchInput" placeholder="Find a service..." autocomplete="off">
+                </div>
+                
+                <nav class="table-of-contents">
+                    <p class="toc-label">SERVICE CATALOG</p>
+                    <ul id="tocList">
+                        <li><a href="#webdev" class="toc-link active">1. Web Development</a></li>
+                        <li><a href="#uiux" class="toc-link">2. UI/UX Design</a></li>
+                        <li><a href="#mobile" class="toc-link">3. Mobile Apps</a></li>
+                        <li><a href="#consultation" class="toc-link">4. Consultation</a></li>
+                        <li><a href="#process" class="toc-link">5. Our Process</a></li>
+                        <li><a href="#pricing" class="toc-link">6. Pricing Models</a></li>
+                        <li><a href="#faq" class="toc-link">7. FAQ</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </aside>
+
+        <main class="content-area" id="mainContent">
+            
+            <div class="doc-meta">
+                <h1>Our Services</h1>
+                <p>Comprehensive digital solutions tailored to your business needs.</p>
+            </div>
+
+            <div id="noResults" class="no-results" style="display: none;">
+                <i class="fas fa-search-minus"></i>
+                <p>No services found matching your search.</p>
+            </div>
+
+            <article id="webdev" class="policy-section">
+                <h2>1. Web Development</h2>
+                <div class="text-block">
+                    <p>We build lightning-fast, secure, and scalable websites using the latest technologies. Whether you need a simple landing page or a complex web application, we have the expertise to deliver.</p>
+                    <ul>
+                        <li><strong>Frontend:</strong> React.js, Vue.js, Next.js, Tailwind CSS.</li>
+                        <li><strong>Backend:</strong> Node.js, Express, Python (Django/Flask).</li>
+                        <li><strong>CMS:</strong> WordPress (Headless), Contentful, Strapi.</li>
+                        <li><strong>E-Commerce:</strong> Shopify, WooCommerce, Custom Solutions.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article id="uiux" class="policy-section">
+                <h2>2. UI/UX Design</h2>
+                <div class="text-block">
+                    <p>Design is not just about how it looks, but how it works. We create user-centric interfaces that are intuitive, accessible, and visually stunning.</p>
+                    <ul>
+                        <li><strong>User Research:</strong> Understanding your audience and their pain points.</li>
+                        <li><strong>Wireframing & Prototyping:</strong> Visualizing the structure before coding.</li>
+                        <li><strong>Visual Design:</strong> Creating high-fidelity designs in Figma.</li>
+                        <li><strong>Design Systems:</strong> Building scalable component libraries for consistency.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article id="mobile" class="policy-section">
+                <h2>3. Mobile App Development</h2>
+                <div class="text-block">
+                    <p>Reach your customers on their favorite devices with high-performance mobile applications. We specialize in cross-platform development to save you time and budget.</p>
+                    <ul>
+                        <li><strong>Cross-Platform:</strong> React Native & Flutter (One code base for iOS & Android).</li>
+                        <li><strong>Native Development:</strong> Swift (iOS) and Kotlin (Android) for specific needs.</li>
+                        <li><strong>App Store Optimization (ASO):</strong> Helping your app get found.</li>
+                        <li><strong>Maintenance:</strong> Regular updates and bug fixes.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article id="consultation" class="policy-section">
+                <h2>4. IT Consultation</h2>
+                <div class="text-block">
+                    <p>Not sure which technology to choose? Need a second opinion on your code? We provide expert advice to help you make informed decisions.</p>
+                    <ul>
+                        <li><strong>Tech Stack Selection:</strong> Choosing the right tools for your project.</li>
+                        <li><strong>Code Review:</strong> Auditing your existing codebase for security and performance.</li>
+                        <li><strong>System Architecture:</strong> Designing scalable cloud infrastructure.</li>
+                        <li><strong>Digital Transformation:</strong> Modernizing your legacy systems.</li>
+                    </ul>
+                </div>
+            </article>
+
+            <article id="process" class="policy-section">
+                <h2>5. Our Process</h2>
+                <div class="text-block">
+                    <p>We follow an agile methodology to ensure transparency and flexibility throughout the project lifecycle.</p>
+                    <ol style="margin-left: 20px; color: #cbd5e1;">
+                        <li style="margin-bottom: 10px;"><strong>Discovery:</strong> We listen to your ideas and requirements.</li>
+                        <li style="margin-bottom: 10px;"><strong>Strategy:</strong> We plan the roadmap and milestones.</li>
+                        <li style="margin-bottom: 10px;"><strong>Design & Dev:</strong> We build your product in sprints.</li>
+                        <li style="margin-bottom: 10px;"><strong>Testing:</strong> Rigorous QA to ensure bug-free launch.</li>
+                        <li style="margin-bottom: 10px;"><strong>Launch & Support:</strong> Deployment and ongoing maintenance.</li>
+                    </ol>
+                </div>
+            </article>
+
+            <article id="pricing" class="policy-section">
+                <h2>6. Pricing Models</h2>
+                <div class="text-block">
+                    <p>We offer flexible engagement models to suit different budgets and project scopes.</p>
+                    <ul>
+                        <li><strong>Fixed Price:</strong> For well-defined projects with clear scopes.</li>
+                        <li><strong>Hourly / Time & Material:</strong> For ongoing projects or undefined scopes.</li>
+                        <li><strong>Retainer:</strong> Dedicated team for long-term collaboration.</li>
+                    </ul>
+                </div>
+            </article>
+
+             <article id="faq" class="policy-section">
+                <h2>7. Frequently Asked Questions</h2>
+                <div class="text-block">
+                    <p><strong>Do you provide hosting?</strong><br>Yes, we can help set up hosting on every host in the world.</p>
+                    <p><strong>Do you offer refunds?</strong><br>Refunds are handled based on the contract terms agreed upon before starting.</p>
+                </div>
+            </article>
+
+            <footer class="doc-footer">
+                © 2025 bynusa.dev. All rights reserved.
+            </footer>
+        </main>
+    </div>
+
+    <footer class="grand-footer" id="contact">
+        <div class="footer-glow"></div>
+        
+        <div class="footer-cta-container">
+            <h2 class="footer-cta-title">Ready to Make <br> <span class="gradient-text">Something Epic?</span></h2>
+            <p class="footer-cta-desc">Jangan biarkan ide cemerlangmu menguap. Mari kita wujudkan menjadi realitas digital yang memukau.</p>
+            <a href="mailto:contact@bynusa.dev" class="btn-primary">Start Collaborating <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="footer-separator"></div>
+
+        <div class="footer-grid">
+            <div class="footer-col brand-col">
+                <div class="nav-logo" style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.2rem; color: #fff;">bynusa.dev</div>
+                <p>Architecting digital experiences that merge logic with premium aesthetics. Based in Indonesia, available worldwide.</p>
+                
+                <div class="social-icons">
+                    <a href="https://github.com/justinoekk" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="https://blog.bynusa.dev" target="_blank">Official Blog <span style="font-size: 0.7rem; background: #38bdf8; color: #000; padding: 1px 5px; border-radius: 4px; margin-left: 5px; font-weight: bold;">NEW</span></a></li>
+                    <li><a href="https://market.bynusa.dev" target="_blank">Marketplace</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="cookie.html">Cookie Policy</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col newsletter-col">
+                <h4>Stay Updated</h4>
+                <p>Dapatkan insight terbaru seputar teknologi dan desain.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 bynusa.dev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const searchInput = document.getElementById('searchInput');
+            const sections = document.querySelectorAll('.policy-section');
+            const navLinks = document.querySelectorAll('.toc-link');
+            const noResults = document.getElementById('noResults');
+
+            // Search
+            searchInput.addEventListener('input', (e) => {
+                const term = e.target.value.toLowerCase();
+                let hasResults = false;
+                sections.forEach(section => {
+                    const text = section.innerText.toLowerCase();
+                    const contentDiv = section.querySelector('.text-block');
+                    contentDiv.innerHTML = contentDiv.innerHTML.replace(/<mark class="highlight">(.*?)<\/mark>/g, '$1'); 
+                    if (text.includes(term)) {
+                        section.style.display = "block"; hasResults = true;
+                        if (term.length > 2) contentDiv.innerHTML = contentDiv.innerHTML.replace(new RegExp(`(${term})`, 'gi'), '<mark class="highlight">$1</mark>');
+                    } else section.style.display = "none";
+                });
+                noResults.style.display = hasResults ? 'none' : 'block';
+            });
+
+            // Scroll Spy
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => { if (pageYOffset >= (section.offsetTop - 150)) current = section.getAttribute('id'); });
+                navLinks.forEach(link => { link.classList.remove('active'); if (link.getAttribute('href').includes(current)) link.classList.add('active'); });
+            });
+        });
+    </script>
+</body>
+</html>

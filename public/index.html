@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bynusa.dev | Future Architect</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;700&family=Space+Grotesk:wght@300;500;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="ambient-light">
+        <div class="light-blob blob-1"></div>
+        <div class="light-blob blob-2"></div>
+        <div class="light-blob blob-3"></div>
+    </div>
+
+    <nav class="navbar-container">
+        <div class="navbar">
+            <div class="nav-logo">bynusa.dev</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#journey">Journey</a></li>
+                <li><a href="#skills">Stack</a></li>
+                <li><a href="#impact">Impact</a></li>
+            </ul>
+            <a href="#contact" class="btn-contact">Let's Talk</a>
+        </div>
+    </nav>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <div class="status-pill animate-item" style="--delay: 0.1s">
+                <span class="dot"></span> Available for new projects
+            </div>
+            
+            <h1 class="glitch-text animate-item" style="--delay: 0.3s">
+                Architecting<br>
+                <span class="gradient-text">Digital Reality.</span>
+            </h1>
+            
+            <p class="hero-desc animate-item" style="--delay: 0.5s">
+                I am <strong>Justin</strong>. A full-stack creative developer building the future of web. 
+                Focusing on performance, aesthetics, and user experience.
+            </p>
+
+            <div class="cta-group animate-item" style="--delay: 0.7s">
+                <a href="#journey" class="btn-primary">Explore My World</a>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="journey-section" id="journey">
+        <div class="section-header">
+            <h2 class="gradient-title">My Journey</h2>
+            <p>Education history and milestones achieved.</p>
+        </div>
+
+        <div class="bento-grid">
+            <div class="bento-card large current-edu">
+                <div class="card-glow"></div>
+                <div class="bento-split-layout">
+                    <div class="bento-text-side">
+                        <div class="bento-icon"><i class="fas fa-school"></i></div>
+                        <span class="bento-year">2025 - Present</span>
+                        <h3>SMA Santo Lukas 1</h3>
+                        <p>Current Chapter. Deep diving into Advanced Algorithms & Software Engineering.</p>
+                        <div class="tags">
+                            <span>Science</span><span>Coding Club</span><span>Leadership</span>
+                        </div>
+                    </div>
+                    <div class="bento-img-side">
+                        <img src="./img/sma.jpg" alt="Profile Justin" class="feature-img">
+                    </div>
+                </div>
+            </div>
+
+            <div class="bento-card highlight-gold">
+                <div class="card-glow"></div>
+                <div class="award-badge"><i class="fas fa-crown"></i> 1st Place</div>
+                <div class="bento-content">
+                    <h3>Web Design Competition</h3>
+                    <p>City Level Championship 2024</p>
+                </div>
+            </div>
+
+            <div class="bento-card">
+                <div class="card-glow"></div>
+                <div class="bento-icon"><i class="fas fa-user-graduate"></i></div>
+                <div class="bento-content">
+                    <span class="bento-year">2022 - 2025</span>
+                    <h3>SMP Santo Lukas 2</h3>
+                    <p>Building the foundation of logic and mathematics.</p>
+                </div>
+            </div>
+
+            <div class="bento-card">
+                <div class="card-glow"></div>
+                <div class="award-badge silver"><i class="fas fa-medal"></i> Best Student</div>
+                <div class="bento-content">
+                    <h3>Computer Science</h3>
+                    <p>Highest Score Achiever 2023</p>
+                </div>
+            </div>
+
+            <div class="bento-card">
+                <div class="card-glow"></div>
+                <div class="bento-icon"><i class="fas fa-cube"></i></div>
+                <div class="bento-content">
+                    <span class="bento-year">2016 - 2022</span>
+                    <h3>SD Santo Lukas</h3>
+                    <p>The beginning of curiosity.</p>
+                </div>
+            </div>
+
+             <div class="bento-card wide">
+                <div class="card-glow"></div>
+                <div class="bento-flex">
+                    <div class="bento-icon"><i class="fas fa-trophy"></i></div>
+                    <div>
+                        <h3>National Hackathon Finalist</h3>
+                        <p>Top 10 Innovators - 2025. Creating educational app solution.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+        <div class="section-header">
+            <h2 class="gradient-title">Tech Arsenal</h2>
+            <p>Selected tools and technologies I use to push boundaries.</p>
+        </div>
+
+        <div class="skill-tabs">
+            <button class="tab-btn active" data-target="all">All Stack</button>
+            <button class="tab-btn" data-target="dev">Development</button>
+            <button class="tab-btn" data-target="tools">Design & Tools</button>
+        </div>
+
+        <div class="tech-grid">
+            <div class="tech-card" data-type="dev">
+                <div class="tech-icon" style="color: #e34c26;"><i class="fab fa-html5"></i></div>
+                <div class="tech-info"><h4>HTML5</h4><div class="progress-line"><div class="line-fill" style="width: 98%"></div></div></div>
+                <div class="tech-rating"><i class="fas fa-star"></i> 5.0</div>
+            </div>
+            <div class="tech-card" data-type="dev">
+                <div class="tech-icon" style="color: #264de4;"><i class="fab fa-css3-alt"></i></div>
+                <div class="tech-info"><h4>CSS3 / Tailwind</h4><div class="progress-line"><div class="line-fill" style="width: 95%"></div></div></div>
+                <div class="tech-rating"><i class="fas fa-star"></i> 4.9</div>
+            </div>
+            <div class="tech-card" data-type="dev">
+                <div class="tech-icon" style="color: #f7df1e;"><i class="fab fa-js"></i></div>
+                <div class="tech-info"><h4>JavaScript</h4><div class="progress-line"><div class="line-fill" style="width: 90%"></div></div></div>
+                <div class="tech-rating"><i class="fas fa-star"></i> 4.8</div>
+            </div>
+            <div class="tech-card" data-type="dev">
+                <div class="tech-icon" style="color: #61dafb;"><i class="fab fa-react"></i></div>
+                <div class="tech-info"><h4>React Ecosystem</h4><div class="progress-line"><div class="line-fill" style="width: 85%"></div></div></div>
+                <div class="tech-rating"><i class="fas fa-star"></i> 4.5</div>
+            </div>
+             <div class="tech-card" data-type="dev">
+                <div class="tech-icon" style="color: #68a063;"><i class="fab fa-node"></i></div>
+                <div class="tech-info"><h4>Node.js</h4><div class="progress-line"><div class="line-fill" style="width: 80%"></div></div></div>
+                <div class="tech-rating"><i class="fas fa-star"></i> 4.2</div>
+            </div>
+             <div class="tech-card" data-type="dev">
+                <div class="tech-icon" style="color: #f89820;"><i class="fab fa-java"></i></div>
+                <div class="tech-info"><h4>Java</h4><div class="progress-line"><div class="line-fill" style="width: 75%"></div></div></div>
+                <div class="tech-rating"><i class="fas fa-star"></i> 4.0</div>
+            </div>
+            <div class="tech-card" data-type="tools">
+                <div class="tech-icon" style="color: #F24E1E;"><i class="fab fa-figma"></i></div>
+                <div class="tech-info"><h4>Figma</h4><div class="progress-line"><div class="line-fill" style="width: 88%"></div></div></div>
+                <div class="tech-rating"><i class="fas fa-star"></i> 4.7</div>
+            </div>
+            <div class="tech-card" data-type="tools">
+                <div class="tech-icon" style="color: #f05032;"><i class="fab fa-git-alt"></i></div>
+                <div class="tech-info"><h4>Git Control</h4><div class="progress-line"><div class="line-fill" style="width: 92%"></div></div></div>
+                <div class="tech-rating"><i class="fas fa-star"></i> 4.8</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="impact-section" id="impact">
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3 class="stat-number">2024</h3>
+                <p class="stat-label">Established In</p>
+                <div class="stat-glow"></div>
+            </div>
+            <div class="stat-box">
+                <h3 class="stat-number">50+</h3>
+                <p class="stat-label">Projects Delivered</p>
+                <div class="stat-glow"></div>
+            </div>
+            <div class="stat-box">
+                <h3 class="stat-number">120+</h3>
+                <p class="stat-label">Happy Users</p>
+                <div class="stat-glow"></div>
+            </div>
+            <div class="stat-box">
+                <h3 class="stat-number">100%</h3>
+                <p class="stat-label">Satisfaction Rate</p>
+                <div class="stat-glow"></div>
+            </div>
+        </div>
+
+        <div class="section-header" style="margin-top: 80px;">
+            <h2 class="gradient-title">Trusted By Visionaries</h2>
+            <p>Apa kata mereka yang sudah berkolaborasi.</p>
+        </div>
+
+        <div class="reviews-grid">
+            <div class="review-card">
+                <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                <p class="review-text">"Justin is a rare talent. His code is clean, but his design sense is what sets him apart. bynusa.dev delivered beyond my expectations."</p>
+                <div class="reviewer-info">
+                    <div class="reviewer-avatar" style="background: #3b82f6;">AD</div>
+                    <div><h4>Sarah Jenkins</h4><span>CEO, TechStart Inc.</span></div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                <p class="review-text">"Website portofolio saya jadi terlihat sangat mahal dan profesional. Pengerjaan sangat cepat dan komunikasi lancar."</p>
+                <div class="reviewer-info">
+                    <div class="reviewer-avatar" style="background: #8b5cf6;">RF</div>
+                    <div><h4>Rizky Febian</h4><span>Creative Director</span></div>
+                </div>
+            </div>
+            <div class="review-card">
+                <div class="quote-icon"><i class="fas fa-quote-right"></i></div>
+                <p class="review-text">"The 'Dark Elegant' theme he created is a masterpiece. Highly recommended for anyone looking for a futuristic web presence."</p>
+                <div class="reviewer-info">
+                    <div class="reviewer-avatar" style="background: #00d4ff;">MK</div>
+                    <div><h4>Michael Kho</h4><span>Senior Developer</span></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="grand-footer" id="contact">
+        <div class="footer-glow"></div>
+        
+        <div class="footer-cta-container">
+            <h2 class="footer-cta-title">Ready to Make <br> <span class="gradient-text">Something Epic?</span></h2>
+            <p class="footer-cta-desc">Jangan biarkan ide cemerlangmu menguap. Mari kita wujudkan menjadi realitas digital yang memukau.</p>
+            <a href="mailto:contact@bynusa.dev" class="btn-primary">Start Collaborating <i class="fas fa-arrow-right"></i></a>
+        </div>
+
+        <div class="footer-separator"></div>
+
+        <div class="footer-grid">
+            <div class="footer-col brand-col">
+                <div class="nav-logo" style="font-family: 'Space Grotesk', sans-serif; font-weight: 700; font-size: 1.2rem; color: #fff;">bynusa.dev</div>
+                <p>Architecting digital experiences that merge logic with premium aesthetics. Based in Indonesia, available worldwide.</p>
+                
+                <div class="social-icons">
+                    <a href="https://github.com/justinoekk" target="_blank" class="social-link">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-col">
+                <h4>Explore</h4>
+                <ul class="footer-links">
+                    <li><a href="index.html#home">Home</a></li>
+                    <li><a href="https://blog.bynusa.dev" target="_blank">Official Blog <span style="font-size: 0.7rem; background: #38bdf8; color: #000; padding: 1px 5px; border-radius: 4px; margin-left: 5px; font-weight: bold;">NEW</span></a></li>
+                    <li><a href="https://market.bynusa.dev" target="_blank">Marketplace</a></li>
+                    <li><a href="services.html">Services</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col">
+                <h4>Legal</h4>
+                <ul class="footer-links">
+                    <li><a href="privacy.html">Privacy Policy</a></li>
+                    <li><a href="terms.html">Terms of Service</a></li>
+                    <li><a href="cookie.html">Cookie Policy</a></li>
+                    <li><a href="disclaimer.html">Disclaimer</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-col newsletter-col">
+                <h4>Stay Updated</h4>
+                <p>Dapatkan insight terbaru seputar teknologi dan desain.</p>
+                <form class="newsletter-form">
+                    <input type="email" placeholder="Enter your email" required>
+                    <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                </form>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>© 2025 bynusa.dev. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
